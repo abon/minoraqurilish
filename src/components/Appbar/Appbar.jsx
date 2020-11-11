@@ -31,18 +31,39 @@ const Appbar = () => {
                                     раҳбарият
                                 </Link>
                             </NavDropdown.Item>
-                            <NavDropdown.Item >касаба уюшмаси</NavDropdown.Item>
-                            <NavDropdown.Item >бўш иш ўринлари</NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/kasaba'>
+                                    касаба уюшмаси
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/vacancy'>
+                                    бўш иш ўринлари
+                                </Link>
+                            </NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title="Biznesga oid" id="basic-nav-dropdown">
-                            <NavDropdown.Item>Jamiyat tarixi</NavDropdown.Item>
-                            <NavDropdown.Item >Tashkiliy tuzilma</NavDropdown.Item>
-                            <NavDropdown.Item >Rahbariyat</NavDropdown.Item>
-                            <NavDropdown.Item >Faoliyat maqsadi va vazifalar  </NavDropdown.Item>
-                            <NavDropdown.Item >Kasaba uyushmasi</NavDropdown.Item>
-                            <NavDropdown.Item >Bo'sh ish o'rinlari</NavDropdown.Item>
-                            <NavDropdown.Item >Sohaga oid muhim hujjatlar</NavDropdown.Item>
+                        <NavDropdown title="бизнесга оид" id="basic-nav-dropdown">
+                            <NavDropdown.Item >
+                                <Link to='haridlar'>
+                                    Ҳаридлар
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='konkurslar'>
+                                    конкурслар
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='shartnomalar'>
+                                    шартномалар
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='mahsulotlar'>
+                                    маҳсулотлар
+                                </Link>
+                            </NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Aksiyadorlar va investorlar" id="basic-nav-dropdown">

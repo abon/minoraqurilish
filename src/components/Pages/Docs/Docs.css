@@ -1,0 +1,37 @@
+.docs {
+  flex: 1;
+  display: flex;
+  border-radius: 10px;
+  margin: 35px;
+  background-color: #f9f7f7;
+}
+
+.docs__heading {
+  font-size: 3em;
+  font-weight: bolder;
+  padding: 0.4em;
+  color: #152d4d;
+}
+
+.docs__2020 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 5px;
+}
+
+.docs__folder__img {
+  width: 80px;
+  height: 80px;
+}
+
+.docs__year {
+  font-size: 1rem;
+  margin-top: 1em;
+  font-weight: bolder;
+  margin-left: 1em;
+}
+
+.docs__links {
+  padding: 3em;
+}

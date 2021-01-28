@@ -1,5 +1,5 @@
 import { Route, Switch } from "react-router-dom";
-import { Jamiyat, Home, Rahbariyat, Kasaba, Vacancy, Haridlar, Konkurslar, Shartnomalar, Mahsulotlar } from './index'
+import { Jamiyat, Home, Rahbariyat, Kasaba, Vacancy, Haridlar, Konkurslar, Shartnomalar, Mahsulotlar, Docs } from './index'
 
 const Routes = () => {
     return (
@@ -15,6 +15,7 @@ const Routes = () => {
                 <Route path="/konkurslar" component={Konkurslar} exact />
                 <Route path="/shartnomalar" component={Shartnomalar} exact />
                 <Route path="/mahsulotlar" component={Mahsulotlar} exact />
+                <Route path="/hujjatlar" component={Docs} exact />
             </Switch>
         </div>
     )

@@ -19,7 +19,7 @@ const Rahbarlar = () => {
                 </ol>
             </nav>
             <Row>
-                <div className="card mb-3" style={{ margin: '30px' }} >
+                <div className="director__card  card mb-3" style={{ margin: '30px' }} >
                     <div className="row no-gutters">
                         <div class="col-md-4">
                             <img src={c6} style={{ height: '300px', width: '100%', objectFit: 'cover' }} className="card-img" alt="..." />
@@ -58,7 +58,7 @@ const Rahbarlar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card mb-3" style={{ margin: '30px' }} >
+                <div className="director__card card mb-3" style={{ margin: '30px' }} >
                     <div className="row no-gutters">
                         <div class="col-md-4">
                             <img src={c6} style={{ height: '300px', width: '100%', objectFit: 'cover' }} className="card-img" alt="..." />
@@ -97,7 +97,7 @@ const Rahbarlar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card mb-3" style={{ margin: '30px' }} >
+                <div className="director__card  card mb-3" style={{ margin: '30px' }} >
                     <div className="row no-gutters">
                         <div class="col-md-4">
                             <img src={c6} style={{ height: '300px', width: '100%', objectFit: 'cover' }} className="card-img" alt="..." />
@@ -136,7 +136,7 @@ const Rahbarlar = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card mb-3" style={{ margin: '30px' }} >
+                <div className="director__card  card mb-3" style={{ margin: '30px' }} >
                     <div className="row no-gutters">
                         <div class="col-md-4">
                             <img src={c6} style={{ height: '300px', width: '100%', objectFit: 'cover' }} className="card-img" alt="..." />

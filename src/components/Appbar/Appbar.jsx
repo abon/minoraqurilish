@@ -67,17 +67,42 @@ const Appbar = () => {
                         </NavDropdown>
 
                         <NavDropdown title="Aksiyadorlar va investorlar" id="basic-nav-dropdown">
-                            <NavDropdown.Item>Акциядорлик капиталининг таркиби</NavDropdown.Item>
-                            <NavDropdown.Item >Акциядорлар йиғилиши</NavDropdown.Item>
-                            <NavDropdown.Item >Ошкоралик маълумотлар</NavDropdown.Item>
-                            <NavDropdown.Item >Устав ва ички низомлар</NavDropdown.Item>
-                            <NavDropdown.Item >Корпоратив бошқарув кодекси</NavDropdown.Item>
-                            <NavDropdown.Item >Ҳисоботлар</NavDropdown.Item>
-                            <NavDropdown.Item >Инвестицион лойихалар</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link to='/kapital-tarkibi'>
+                                    Акциядорлик капиталининг таркиби
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item ><Link to='/oshkora-malumot'>
+                                Ошкоралик маълумотлар
+                                </Link></NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/ustav'>
+                                    Устав ва ички низомлар
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/korporativ'>
+                                    Корпоратив бошқарув кодекси
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/hisobotlar'>
+                                    Ҳисоботлар
+                                </Link>
+                            </NavDropdown.Item>
+                            <NavDropdown.Item >
+                                <Link to='/inves-loyiha'>
+                                    Инвестицион лойихалар
+                                </Link>
+                            </NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Matbuot markazi" id="basic-nav-dropdown">
-                            <NavDropdown.Item>Yangiliklar</NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link to='/yangiliklar'>
+                                    Yangiliklar
+                                </Link>
+                            </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
 

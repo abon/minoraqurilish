@@ -101,7 +101,12 @@ const Appbar = () => {
                             <NavDropdown.Item>
                                 <Link to='/yangiliklar'>
                                     Yangiliklar
-                                </Link>
+                                </Link>    
+                            </NavDropdown.Item>
+                            <NavDropdown.Item>
+                                <Link to='/hujjatlar'>
+                                    Axborotnomalar
+                                </Link>    
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>

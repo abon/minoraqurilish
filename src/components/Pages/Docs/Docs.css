@@ -1,4 +1,12 @@
-.docs {
+.docs__1 {
+  flex: 1;
+  display: flex;
+  border-radius: 10px;
+  margin: 35px;
+  background-color: #f9f7f7;
+}
+
+.docs__2 {
   flex: 1;
   display: flex;
   border-radius: 10px;

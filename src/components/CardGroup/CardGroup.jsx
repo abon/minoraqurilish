@@ -1,5 +1,6 @@
 import { Card, CardColumns } from 'react-bootstrap';
 import { format } from 'date-fns'
+import { Link } from 'react-router-dom'
 import { uz } from 'date-fns/locale'
 
 import elon from '../../assets/elon.jpg'
@@ -13,6 +14,7 @@ import c7 from '../../assets/c7.jpg';
 
 import './CardGroup.css';
 
+
 const CardGroup = () => {
     return (
         <div className='card__group'>
@@ -21,10 +23,12 @@ const CardGroup = () => {
                 <Card className='news__card'>
                     <Card.Img variant="top" src={elon} />
                     <Card.Body>
-                        <Card.Title>Объявление!</Card.Title>
-                        <Card.Text>
-                            Руководство АО «Minora qurish ekspeditsiyasi» сообщает,  что официальным наименование веб-сайта Общества является <strong>www.mqe-aj.uz</strong> <br /> Администрация
+                        <Link to="/yangiliklar">
+                            <Card.Title>Объявление!</Card.Title>
+                            <Card.Text>
+                                Руководство АО «Minora qurish ekspeditsiyasi» сообщает,  что официальным наименование веб-сайта Общества является <strong>www.mqe-aj.uz</strong> <br /> Администрация
                         </Card.Text>
+                        </Link>
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted">{format(new Date(), 'do MMMM yyyy', {

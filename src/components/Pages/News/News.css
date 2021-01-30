@@ -1,0 +1,10 @@
+.news__text {
+  border-radius: 10px;
+  margin: 50px;
+  background-color: #f9f7f7;
+}
+
+.news__paragraph {
+  padding: 140px;
+  font-size: 18px;
+}

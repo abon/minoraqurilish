@@ -12,4 +12,5 @@ export { default as Haridlar } from "./Pages/Haridlar/Haridlar";
 export { default as Konkurslar } from "./Pages/Konkurslar/Konkurslar";
 export { default as Shartnomalar } from "./Pages/Shartnomalar/Shartnomalar";
 export { default as Mahsulotlar } from "./Pages/Mahsulotlar/Mahsulotlar";
+export { default as News } from "./Pages/News/News";
 export { default as Docs } from "./Pages/Docs/Docs";

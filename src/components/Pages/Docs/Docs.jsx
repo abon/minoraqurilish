@@ -8,6 +8,14 @@ const Docs = () => {
         <div>
             <h1 className="docs__heading">Axborotnomalar</h1>
             <div className="docs">
+
+                <a className='docs__links' href="https://www.mediafire.com/file/tf1kcvx2grn3dbl/%25D0%25A1%25D1%2583%25D1%2589.%25D1%2584%25D0%25B0%25D0%25BA%25D1%2582%25E2%2584%25962.pdf/file">
+                    <div className="docs__2020">
+                        <img className="docs__folder__img" src={folder} />
+                        <p className='docs__year'>Муҳим фактлар</p>
+                    </div>
+                </a>
+
                 <a className='docs__links' href="https://www.mediafire.com/folder/e947yvxysl1lq">
                     <div className="docs__2020">
                         <img className="docs__folder__img" src={folder} />

@@ -8,7 +8,7 @@ const Appbar = () => {
         <div className='app__bar'>
             <Navbar expand="lg">
                 <Navbar.Brand> <Link to='/'>
-                    Minora Qurilish
+                    MQE
                            </Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -101,12 +101,12 @@ const Appbar = () => {
                             <NavDropdown.Item>
                                 <Link to='/yangiliklar'>
                                     Yangiliklar
-                                </Link>    
+                                </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
                                 <Link to='/hujjatlar'>
                                     Axborotnomalar
-                                </Link>    
+                                </Link>
                             </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
